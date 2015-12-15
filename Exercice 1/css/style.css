@@ -1,56 +1,21 @@
-/*body
+body
 {
-    background-color:black;
-    margin:0;
-    padding:0;
-    color:white;
-    width:100%;
+    background-color:grey;
 }
-
-header
-{
-    background-image:url("Image/image1.png");
-    background-repeat:repeat;
-    background-attachment:fixed;
-    color:green;
-}
-
-main 
-{
-    background-image:url("Image/footer_lodyas.png");
-    background-repeat:repeat;
-    background-attachment:fixed;
-    margin: auto;
-}
-
-footer 
-{
-    width:100%;
-    background-image:url("Image/image1.png");
-    background-repeat:repeat;
-    background-attachment:fixed;
-}
-
-*/.photo
+.photo
 {
 	width:200px;
 	border-left: 3px yellow solid;
 	border-top: 3px yellow solid;
 	border-radius:50px;
     box-shadow: 10px 10px 10px black;
-	display: inline-block;
-	margin-left:170px;
-	}
-/*
-.entete
-{
-    margin-left:5%;
-    display: inline-block;
-    vertical-align: top;
-    width:70%;
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	
 }
 
-*/.mail
+.mail
 {
     color: green;
 }
@@ -58,27 +23,47 @@ footer
 p
 {
     display:block;
-    text-align: justify;
-    margin-top:30px;
+    text-align: center;
+    margin-top:50px;
 }
 
-ul{
+ul
+{
     font-size:1.5em;
+    margin-top:50px;
+    text-align:center;
+    list-style-type:none;
 }
 
-h3, h1, h2
+h3, h2, h1
 {
     text-align: center;
     color: green;
 }
 
-#contact p
+.jumbotron
 {
-    margin-top: 20%;
+    background-color:#464440;
+    color:white;
+}
+
+.jumbotron h1
+{
+    background-color:#464440;
+    color:blue;
+}
+
+#menu5 p
+{
+    margin:20px;
     text-align:center;
 }
 
-#map
+iframe
 {
+    display:block;
     margin-top:5%;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
 }
