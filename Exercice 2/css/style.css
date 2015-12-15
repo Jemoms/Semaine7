@@ -1,0 +1,89 @@
+*
+{
+    box-sizing :border-box;
+}
+
+body
+{
+    background-color:black;
+    margin:0;
+    padding:0;
+    color:white;
+    width:100%;
+}
+
+header
+{
+    background-image:url("../img/image1.png");
+    background-repeat:repeat;
+    background-attachment:fixed;
+    color:green;
+}
+
+main 
+{
+    background-image:url("../img/footer_lodyas.png");
+    background-repeat:repeat;
+    background-attachment:fixed;
+    margin: auto;
+}
+
+footer 
+{
+    width:100%;
+    background-image:url("../img/image1.png");
+    background-repeat:repeat;
+    background-attachment:fixed;
+}
+
+.photo
+{
+	width:200px;
+	border-left: 3px yellow solid;
+	border-top: 3px yellow solid;
+	border-radius:50px;
+    box-shadow: 10px 10px 10px black;
+	display: inline-block;
+	vertical-align: top;
+	}
+
+.entete
+{
+    margin-left:5%;
+    display: inline-block;
+    vertical-align: top;
+    width:60%;
+}
+
+.mail
+{
+    color: green;
+}
+
+p
+{
+    text-align: justify;
+}
+
+ul
+{
+    list-style-type:none;
+    text-align:center;
+}
+
+h3, h1
+{
+    text-align: center;
+    color: green;
+}
+
+#contact p
+{
+    margin-top: 20%;
+    text-align:center;
+}
+
+#map
+{
+    margin-top:5%;
+}
